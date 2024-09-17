@@ -1,0 +1,36 @@
+.Modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00000099;
+}
+
+.ModalMain {
+    position: fixed;
+    background: white;
+    width: 35rem;
+    height: auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.ModalBody {
+    padding: 25px;
+}
+
+.ModalFooter {
+    padding: 10px;
+}
+
+.ModalButton {
+    width: 75px;
+    height: 25px;
+    font-size: 15px;
+}

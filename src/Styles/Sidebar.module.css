@@ -1,0 +1,24 @@
+.Sidebar {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    min-height: 100vh;
+}
+
+.SidebarMenu {
+    background-color: white;
+}
+
+.SidebarButton {
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    background-color: white;
+    font-size: 25px;
+}
+
+.SidebarButton:hover {
+    cursor: pointer;
+    background-color: whitesmoke;
+}
